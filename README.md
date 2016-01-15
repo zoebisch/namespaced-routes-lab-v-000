@@ -1,16 +1,14 @@
 ## Objectives
 
-1. Objective 1
-2. Objective 2
+1. Use module scope in routes
+2. Use scope in routes
 
-## Instructions
+## Outline
 
-Make the tests pass.
+Back to the playlist example. This lab is going to be a bit beefier then the previous ones.
 
-### Part 1: Do Some Stuff
-
-## Resources
-
-* [Stack Exchange](http://www.stackexchange.com) - [Some Question on Stack Exchange](http://www.stackexchange.com/questions/123)
-
-<a href='https://learn.co/lessons/namespaced-routes-lab' data-visibility='hidden'>View this lesson on Learn.co</a>
+  * Implement a settings controller which is under a admin module
+  * Settings should set sort order for songs and artist
+  * Another controller called AccessControl which is under the admin module.
+    * Turns off/on the ability to add artists or songs
+  * It should actually work! The students will need to create a settings model to save all this in. The point of this lab is not the models, so not toooo much emphasis there.
