@@ -12,3 +12,5 @@ Back to the playlist example. This lab is going to be a bit beefier then the pre
   * Another controller called AccessControl which is under the admin module.
     * Turns off/on the ability to add artists or songs
   * It should actually work! The students will need to create a settings model to save all this in. The point of this lab is not the models, so not toooo much emphasis there.
+
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/namespaced-routes-lab' title='Objectives'>Objectives</a> on Learn.co and start learning to code for free.</p>
