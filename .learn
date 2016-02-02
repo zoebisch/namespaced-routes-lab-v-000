@@ -1,5 +1,7 @@
 tags:
-  - tag1
+  - routes
+  - namespace
+  - rails
 languages:
-  - language1
+  - ruby
 resources: 0
