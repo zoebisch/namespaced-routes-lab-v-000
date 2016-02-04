@@ -16,6 +16,10 @@ our routes and controllers.
 The base application has been provided with tests. Make sure to run
 `rake db:seed` to set up seed data. Tests can be run with `rspec`.
 
+**Note:** Since we're building new features on an existing project that
+already has tests, part of the job is to make sure the tests that
+already pass at the beginning still pass when you're done!
+
 1. Create a model called `Preference` with two `string` fields:
    `song_sort_order` and `artist_sort_order` and two `boolean` fields:
 `allow_create_artists` and `allow_create_songs`.
