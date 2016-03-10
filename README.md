@@ -31,7 +31,7 @@ already pass at the beginning still pass when you're done!
   4. Creating new artists enabled or disabled. Used to control the
      ability to add new artists to the system.
    for artists and songs.
-2. Create a `PreferencesController`, routes, and views to manage the preferences. Do this under an `admin` module.
+2. Create a `PreferencesController`, routes, and views to manage the preferences. Do this under an `Admin` module to separate it from the standard user functionality.
 3. Update the artists and songs `index` pages to order by `name` according to each preference.
 4. Update the `songs#new` and `artists#new` actions to check that
    creating new songs or artists is enable, and redirect to `/songs` and `/artists`,
@@ -42,3 +42,4 @@ respectively, if that preference is disabled.
 ![Happy Gilmore](http://i.giphy.com/h2Q9ZYee54UOk.gif)
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/namespaced-routes-lab' title='Objectives'>Objectives</a> on Learn.co and start learning to code for free.</p>
+
