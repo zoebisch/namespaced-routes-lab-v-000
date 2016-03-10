@@ -21,14 +21,14 @@ The base application has been provided with tests. Make sure to run
 already has tests, part of the job is to make sure the tests that
 already pass at the beginning still pass when you're done!
 
-1. Create a model that will store preferences for the app. It will need
+1. Create a `Preference` model that will store preferences for the app. It will need
    to have fields for:
   1. Song sort order (e.g. `"asc"` or `"desc"`). This will be used to
      control the default sort order on the `/songs` page.
   2. Artist sort order. This will be used to control the default sort
      order on the `/artists` page.
-  3. Creating new songs enabled or disabled. Used to control the ability to add new songs to the system.
-  4. Creating new artists enabled or disabled. Used to control the
+  3. Allowing creation of new songs. Used to control the ability to add new songs to the system.
+  4. Allowing creation of new artists. Used to control the
      ability to add new artists to the system.
    for artists and songs.
 2. Create a `PreferencesController`, routes, and views to manage the preferences. Do this under an `Admin` module to separate it from the standard user functionality.
